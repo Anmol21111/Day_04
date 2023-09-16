@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Bodoni+Moda:wght@400;900&family=Chakra+Petch:ital,wght@0,400;1,300&family=Foldit:wght@100&family=Gravitas+One&family=Kalam:wght@700&family=Lato:ital,wght@0,400;1,700&family=Merriweather&family=Poppins:wght@400;500&family=Roboto:wght@100;300&family=Rubik+Mono+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+body {
+    background-color:antiquewhite;
+}
+
+
+.container {
+    display: flex;
+    margin: 2%;
+}
+
+.header {
+    display: flex;
+    margin-left: 5%;
+    width: 100vw;
+    height: 100%;
+}
+.header .menu {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 6%;
+    column-gap: 35px;
+    margin-top: 6.5px;
+  
+}
+.header .menu a 
+{ 
+   
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+
+}
+
+.main-body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13%;
+    
+    margin-left: 10%;
+}
+.main-body .heading h1 
+{
+    font-size: 2.3rem;
+    font-family: 'poppins';
+}
+.main-body .heading p 
+{
+    font-size: 11px;
+}
+.main-body .images
+{
+    margin-left: 20%;
+}
+
+.main-body .images  img{
+   width: 180px;
+   height: 200px;
+   margin-top: -10%;
+   display:inline-block;
+   column-gap: 4%;
+   margin-left:2%;
+}
+
+#img3 {
+    width: 380px;
+    margin-top: 1%;
+    height: 150px;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    margin-top: 5%;
+    background-color: #3b855b;
+    color: white;
+    border: transparent;
+}
